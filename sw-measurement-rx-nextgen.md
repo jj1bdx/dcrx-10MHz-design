@@ -1,6 +1,9 @@
 # Shortwave measurement receiver next generation
 
-To be disclosed once the related hardware and code is open
+## Status and licensing policy
+
+* WIP document: copyright retained
+* To be relicensed as open source documents once the related hardware and code is open
 
 ## Receiver hardware capability
 
