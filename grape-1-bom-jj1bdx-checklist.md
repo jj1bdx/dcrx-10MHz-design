@@ -9,7 +9,7 @@
 |   |  JMP1                        | 1 | JMPR         | S9337-ND |
 |   |  D2                          | 1 | 1N4000       | 1N4001RLGOSCT-ND |
 |   |  IC1                         | 1 | SA612A       | Akizuki SA612A |
-|   |  IC3                         | 1 | LT1761-5     | Akizuki NJM12888F05 |
+|   |  IC3                         | 1 | LT1761-5     | Akizuki NJM12888F05 (CAUTION)|
 |   |  U1                          | 1 | LT6202CS5    | Akizuki NJM77701F |
 |   |  D1                          | 1 | ESD7L5       | ESD7L5.0DT5GOSCT-ND |
 |   |  PWR                         | 1 | Blue LED     | 754-1938-1-ND |
@@ -37,3 +37,4 @@
 
 * SA612: bottom: Pin 1-4 side cut diagonally
 * PWR: LED arrow direction: `Kathode -|<|- Anode`, as `◀` printed at the bottom 
+* **CAUTION**: NJM12888F05 can only accept Vin up to **7 (seven) volts.**
