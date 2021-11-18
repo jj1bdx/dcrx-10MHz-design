@@ -22,18 +22,11 @@
 1   15uH         L1206        L5                           490-11672-1-ND
 1   100nH        L1206        L2                           490-12091-1-ND
 1   Blue LED     LED0805      PWR                          754-1938-1-ND
-1   LT1761-5     LT1761-X     IC3                          Akizuki NJM12888F05
-1   LT6202CS5    LT6202CS5    U1                           Akizuki NJM77701F
+1   LT1761-5     LT1761-X     IC3                          Akizuki NJM12888F05 (not recommended!)
+1   LT6202CS5    LT6202CS5    U1                           Akizuki NJU77701F
 1   SA612A       SA612A       IC1                          Akizuki SA612A
 2   SMA Edge     SMAEDGEPCB   ANT, LO                      CON-SMA-EDGE-S-ND            
 1   2X3PINHEADER 2X3PINHEADER FREQ                         609-3234-ND
 1   JMPR         JMPR         JMP1                         S9337-ND
 
 * SA612: left-bottom: Pin 1
-* Soldering sequence (preliminary)
-  - IC1 -> IC3 -> U1 -> D1 -> PWR -> D2 (semiconductors)
-  - 18 capacitors
-  - 10 resistors
-  - 5 inductors/coils
-  - jumper pins
-  - SMA connectors
