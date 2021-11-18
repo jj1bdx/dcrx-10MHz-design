@@ -1,4 +1,4 @@
-# 14-NOV-2021 HamSCI Grape 1 BOM
+# 17-NOV-2021 HamSCI Grape 1 BOM
 
 ## building sequence (up to down)
 
@@ -9,8 +9,8 @@
 |   |  JMP1                        | 1 | JMPR         | S9337-ND |
 |   |  D2                          | 1 | 1N4000       | 1N4001RLGOSCT-ND |
 |   |  IC1                         | 1 | SA612A       | Akizuki SA612A |
-|   |  IC3                         | 1 | LT1761-5     | Akizuki NJM12888F05 (CAUTION)|
-|   |  U1                          | 1 | LT6202CS5    | Akizuki NJM77701F |
+|   |  IC3                         | 1 | LT1761-5     | Akizuki NJM12888F05 (CAUTION) - to be replaced|
+|   |  U1                          | 1 | LT6202CS5    | Akizuki NJU77701F |
 |   |  D1                          | 1 | ESD7L5       | ESD7L5.0DT5GOSCT-ND |
 |   |  PWR                         | 1 | Blue LED     | 754-1938-1-ND |
 |   |  C5, C8, C9, C12, C17, C18   | 6 | 0.1uF        | 399-8000-1-ND |
@@ -37,4 +37,4 @@
 
 * SA612: bottom: Pin 1-4 side cut diagonally
 * PWR: LED arrow direction: `Kathode -|<|- Anode`, as `◀` printed at the bottom 
-* **CAUTION**: NJM12888F05 can only accept Vin up to **7 (seven) volts.**
+* **CAUTION**: NJM12888F05 can only accept Vin up to **6.5 (six point five) volts.** Using an external DC regulator to keep the power supply voltage below 6.5V is strongly recommended. This electronic part is *not recommended*, to be replaced by another regulator with more wider input voltage range.
