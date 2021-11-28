@@ -8,7 +8,7 @@ Record () {
   DATE=`date +%Y-%m-%d_%H-%M-%S`
   FILENAME="./RAW_JJ1BDX_Z__${DATE}.wav"
   echo "Start recording to ${FILENAME} at `date --rfc-3339=ns` for $1 seconds"
-  arecord -q -N --disable-softvol --use-strftime -D ${DEVICE} -c 1 -f S16_LE -t wav -r 8000 -d $1 ${FILENAME}
+  arecord -q -N --disable-softvol -D ${DEVICE} -c 1 -f S16_LE -t wav -r 8000 --buffer-time=300000 -d $1 ${FILENAME}
   echo "End recording to ${FILENAME} at `date --rfc-3339=ns`"
 }
 
